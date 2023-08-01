@@ -1,0 +1,8 @@
+.adminpanel {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}/*# sourceMappingURL=adminPanel.css.map */

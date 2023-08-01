@@ -1,0 +1,66 @@
+.navbar {
+  background-color: rgb(31, 42, 64);
+  color: white;
+  height: 100%;
+  width: 15%;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.navbar .sissoko {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.navbar .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar .user .userimg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.navbar .user .username {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+  color: rgb(224, 224, 224);
+  font-weight: 700;
+  margin: 10px 0px 0px;
+  font-weight: 600;
+}
+.navbar .user .userlevel {
+  color: aquamarine;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.navbar .navbarelements {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -moz-user-select: none; /* firefox */
+  -webkit-user-select: none; /* Safari */ /* IE*/
+  user-select: none; /* Standard syntax */
+  gap: 20px;
+}
+.navbar .navbarelements .gruponame {
+  display: block;
+  margin-left: -15px;
+  color: rgb(163, 163, 163);
+}
+.navbar .navbarelements .elementsflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.navbar .navbarelements .elementsflex img {
+  color: white;
+}/*# sourceMappingURL=navbar.css.map */
