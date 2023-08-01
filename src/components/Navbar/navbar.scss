@@ -7,6 +7,12 @@
     top: 0;
     left: 0;
     z-index: 1;
+
+    -moz-user-select:none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE*/
+    user-select: none; /* Standard syntax */
+    
     .sissoko{
         font-family: "Roboto", sans-serif;
         font-weight: 400;

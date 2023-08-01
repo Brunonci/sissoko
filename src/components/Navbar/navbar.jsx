@@ -31,7 +31,6 @@ const NavBar = () => {
                     <img width="20" height="20" src={home} alt="foto home"/>
                     <span>
                         <p>Dashboard</p>
-                        <a href="/"></a>
                     </span>
                 </div>
 
@@ -40,21 +39,18 @@ const NavBar = () => {
                     <img width="20" height="20" src={team} alt="foto team"/>
                     <span>
                         <p>Manage Team</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={contacts} alt="foto contacts"/>
                     <span>
                         <p>Contacts Information</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={money} alt="foto money"/>
                     <span>
                         <p>Invoices Balances</p>
-                        <a href=""></a>
                     </span>
                 </div>
 
@@ -65,21 +61,18 @@ const NavBar = () => {
                     <img width="20" height="20" src={person} alt="foto person"/>
                     <span>
                         <p>Manage Team</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={calendar} alt="foto calendar"/>
                     <span>
                         <p>Contacts Information</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={question} alt="foto question"/>
                     <span>
                         <p>Invoices Balances</p>
-                        <a href=""></a>
                     </span>
                 </div>
 
@@ -90,28 +83,24 @@ const NavBar = () => {
                     <img width="20" height="20" src={bar} alt="foto bar"/>
                     <span>
                         <p>Bar Chart</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={pie} alt="foto pie"/>
                     <span>
                         <p>Pie Chart</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={line} alt="foto line"/>
                     <span>
                         <p>Line Chart</p>
-                        <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
                     <img width="20" height="20" src={geo} alt="foto geo"/>
                     <span>
                         <p>Geography Chart</p>
-                        <a href=""></a>
                     </span>
                 </div>
 
