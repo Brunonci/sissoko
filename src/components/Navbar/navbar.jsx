@@ -14,25 +14,21 @@ import geo from "./icons8-geography-50.png";
 
 
 
-import { Link } from "react-router-dom";
-
 const NavBar = () => {
-
-
     return (
         <div className="navbar">
 
             <h1 className="sissoko">Sissoko</h1>
 
             <div className="user">
-                <img className="userimg" src="https://advance-dash.netlify.app/assets/user.png" alt=""/>
+                <img className="userimg" src="https://advance-dash.netlify.app/assets/user.png" alt="foto user"/>
                 <h2 className="username">Bruno Cafaro</h2>
                 <h3 className="userlevel">Admin</h3>
             </div>
 
             <div className="navbarelements">
                 <div className="elementsflex">
-                    <img width="20" height="20" src={home}/>
+                    <img width="20" height="20" src={home} alt="foto home"/>
                     <span>
                         <p>Dashboard</p>
                         <a href="/"></a>
@@ -41,21 +37,21 @@ const NavBar = () => {
 
                 <p className="gruponame">Data</p>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={team}/>
+                    <img width="20" height="20" src={team} alt="foto team"/>
                     <span>
                         <p>Manage Team</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={contacts}/>
+                    <img width="20" height="20" src={contacts} alt="foto contacts"/>
                     <span>
                         <p>Contacts Information</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={money}/>
+                    <img width="20" height="20" src={money} alt="foto money"/>
                     <span>
                         <p>Invoices Balances</p>
                         <a href=""></a>
@@ -66,21 +62,21 @@ const NavBar = () => {
                 <p className="gruponame">Pages</p>
                 
                 <div className="elementsflex">
-                    <img width="20" height="20" src={person}/>
+                    <img width="20" height="20" src={person} alt="foto person"/>
                     <span>
                         <p>Manage Team</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={calendar}/>
+                    <img width="20" height="20" src={calendar} alt="foto calendar"/>
                     <span>
                         <p>Contacts Information</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={question}/>
+                    <img width="20" height="20" src={question} alt="foto question"/>
                     <span>
                         <p>Invoices Balances</p>
                         <a href=""></a>
@@ -91,28 +87,28 @@ const NavBar = () => {
                 <p className="gruponame">Charts</p>
                 
                 <div className="elementsflex">
-                    <img width="20" height="20" src={bar}/>
+                    <img width="20" height="20" src={bar} alt="foto bar"/>
                     <span>
                         <p>Bar Chart</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={pie}/>
+                    <img width="20" height="20" src={pie} alt="foto pie"/>
                     <span>
                         <p>Pie Chart</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={line}/>
+                    <img width="20" height="20" src={line} alt="foto line"/>
                     <span>
                         <p>Line Chart</p>
                         <a href=""></a>
                     </span>
                 </div>
                 <div className="elementsflex">
-                    <img width="20" height="20" src={geo}/>
+                    <img width="20" height="20" src={geo} alt="foto geo"/>
                     <span>
                         <p>Geography Chart</p>
                         <a href=""></a>
