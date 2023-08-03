@@ -39,7 +39,7 @@ const Dashboard = () => {
                         <div className="parentdec" style={{ width: 100, height: 100 }}>
 
                                 <VisibilitySensor>
-                                    {({  }) => {
+                                    {({ isVisible }) => {
                                     return (
                                         <CircularProgressbar
                                         value={percentageEmails}
@@ -75,7 +75,7 @@ const Dashboard = () => {
                         <div className="parentdec" style={{ width: 100, height: 100 }} >
 
                         <VisibilitySensor>
-                                    {({  }) => {
+                                    {({ isVisible }) => {
                                     return (
                                         <CircularProgressbar
                                         value={percentageSales}
@@ -109,7 +109,7 @@ const Dashboard = () => {
                         </div>
                         <div className="parentdec" style={{ width: 100, height: 100 }}>
                             <VisibilitySensor>
-                                {({  }) => {
+                                {({ isVisible }) => {
                                     return (
                                         <CircularProgressbar
                                         value={percentageClients}
@@ -143,7 +143,7 @@ const Dashboard = () => {
                         </div>
                         <div className="parentdec" style={{ width: 100, height: 100 }}>
                             <VisibilitySensor>
-                                {({  }) => {
+                                {({ isVisible }) => {
                                     return (
                                         <CircularProgressbar
                                         value={percentageTraffic}
