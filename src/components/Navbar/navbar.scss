@@ -5,13 +5,15 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE*/
     user-select: none; /* Standard syntax */
-    padding: 25px;
+    padding: 25px 25px 0 25px;
 
     .sissoko{
         font-family: "Roboto", sans-serif;
+        margin: 0px;
+        font-size: 24px;
         font-weight: 400;
-        margin-bottom: 30px;
-        margin-left: 30px;
+        line-height: 1.167;
+        color: rgb(224, 224, 224);
     }
     .user{
         display: flex;
@@ -43,7 +45,7 @@
 .navbarelements{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 30px 30px 0 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;

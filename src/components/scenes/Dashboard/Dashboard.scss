@@ -21,8 +21,65 @@
         
     }
 
-    .dashboardmenu{
+    .dashboardmenu {
         display: grid;
+        margin-top: 10px;
+        height: 80vb;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        }
+        
+        .emails { grid-area: 1 / 1 / 2 / 4; }
+        .sales { grid-area: 1 / 4 / 2 / 7; }
+        .clients { grid-area: 1 / 7 / 2 / 10; }
+        .traffic { grid-area: 1 / 10 / 2 / 13; }
+        .revenue { grid-area: 2 / 1 / 4 / 9; }
+        .transactions { grid-area: 2 / 9 / 4 / 13; }
+        .campaign { grid-area: 4 / 1 / 6 / 5; }
+        .salescant { grid-area: 4 / 5 / 6 / 9; }
+        .geo { grid-area: 4 / 9 / 6 / 13; }
+    
+    .box{
+        background-color: rgb(31, 42, 64);
+        margin: 0px;
+        position: relative;
+        .parent1{
+            margin: 0px 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            .parentizq{
+                h4{
+                    margin: 0;
+                    font-size: 20px;
+                    line-height: 1.235;
+                    color: rgb(224, 224, 224);
+                    font-weight: 700;
+                }
+                h5{
+                    margin: 0px;
+                    font-family: "Source Sans Pro", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.334;
+                    color: rgb(76, 206, 172);
+                }
+            }
+            .parentdec{
+                width: 100; 
+                height: 100;
+
+                
+            }
+        }
     }
 
 }
