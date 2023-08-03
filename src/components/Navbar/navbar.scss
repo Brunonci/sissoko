@@ -1,22 +1,17 @@
 .navbar{
     background-color: rgb(31, 42, 64);
     color: white;
-    height: 100%;
-    width: 15%;
-    padding: 20px;
-    top: 0;
-    left: 0;
-    z-index: 1;
-
     -moz-user-select:none; /* firefox */
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE*/
     user-select: none; /* Standard syntax */
     
+
     .sissoko{
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        margin-left: 30px;
     }
 
     .user{
@@ -49,7 +44,7 @@
 .navbarelements{
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -61,7 +56,6 @@
     -ms-user-select: none; /* IE*/
     user-select: none; /* Standard syntax */
 
-    gap: 20px;
     .gruponame{
         display: block;
         margin-left: -15px;
@@ -71,7 +65,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
         img{
             color: white;
             

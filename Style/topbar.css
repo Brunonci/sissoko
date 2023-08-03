@@ -1,0 +1,22 @@
+.topbar {
+  background-color: rgb(20, 27, 45);
+}
+.topbar .topbarpadre {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 40px;
+}
+.topbar .topbarpadre button {
+  background: transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none !important;
+}
+.topbar .topbarpadre button:hover {
+  transform: scale(0.8) rotate(0deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+  background: rgb(31, 42, 64);
+}/*# sourceMappingURL=topbar.css.map */

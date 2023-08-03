@@ -8,9 +8,6 @@ import AdminPanel from './Pages/AdminPanel/adminPanel';
 function App() {
   return (
     <div className="App">
-
-      <AdminPanel/>
-      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<AdminPanel />} />
