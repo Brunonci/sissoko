@@ -1,12 +1,22 @@
 import React from "react";
 import "./Dashboard.scss";
 
+
+
 const Dashboard = () => {
 
     return (
         <div className="dashboard">
-            <h1>hola</h1>
+            <div className="dashboardtitulo">
+                <h1 className="titulo">Dashboard</h1>
+                <p className="frase">Welcome to your dashboard</p>
+            </div>
+
+            <div className="dashboardmenu">
+
+            </div>
+            
         </div>
     )
-    }
+}
 export default Dashboard;

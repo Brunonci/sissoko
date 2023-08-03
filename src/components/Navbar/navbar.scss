@@ -5,7 +5,7 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE*/
     user-select: none; /* Standard syntax */
-    
+    padding: 25px;
 
     .sissoko{
         font-family: "Roboto", sans-serif;
@@ -13,7 +13,6 @@
         margin-bottom: 30px;
         margin-left: 30px;
     }
-
     .user{
         display: flex;
         flex-direction: column;
@@ -31,7 +30,7 @@
             line-height: 1.2;
             color: rgb(224, 224, 224);
             font-weight: 700;
-            margin: 10px 0px 0px;
+            margin: 10px 0px 0px ;
             font-weight: 600;
         }
         .userlevel{
@@ -48,8 +47,6 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
-
-
 
     -moz-user-select:none; /* firefox */
     -webkit-user-select: none; /* Safari */
@@ -72,8 +69,4 @@
         }
     }
 }
-
-
-
-
 }

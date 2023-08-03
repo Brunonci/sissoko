@@ -9,12 +9,11 @@ const adminPanel = () => {
 
     return (
         <div className="adminpanel">
+            <NavBar className="navbar"></NavBar>
             <div className="parent">
-                <NavBar className="navbar"></NavBar>
                 <TopBar className="topbar"></TopBar>
                 <Dashboard className="dashboard"></Dashboard>
             </div>
-
         </div>
 
     )

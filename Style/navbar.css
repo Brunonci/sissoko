@@ -4,6 +4,7 @@
   -moz-user-select: none; /* firefox */
   -webkit-user-select: none; /* Safari */ /* IE*/
   user-select: none; /* Standard syntax */
+  padding: 25px;
 }
 .navbar .sissoko {
   font-family: "Roboto", sans-serif;

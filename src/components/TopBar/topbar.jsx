@@ -12,10 +12,10 @@ const TopBar = () => {
     return (
         <div className="topbar">
             <div className="topbarpadre">
-                <button><img width="30" height="30" src={luna} alt="foto luna"/></button>
-                <button><img width="30" height="30" src={notificacion} alt="foto notificacion"/></button>
-                <button><img width="30" height="30" src={config} alt="foto config"/></button>
-                <button><img width="30" height="30" src={perfil} alt="foto perfil"/></button>
+                <button><img width="20" height="20" src={luna} alt="foto luna"/></button>
+                <button><img width="20" height="20" src={notificacion} alt="foto notificacion"/></button>
+                <button><img width="20" height="20" src={config} alt="foto config"/></button>
+                <button><img width="20" height="20" src={perfil} alt="foto perfil"/></button>
             </div>
             
 
